@@ -212,7 +212,6 @@ void stampaCoda(p_coda c) {
 	}
 }
 
-
 void aggiungiElementoCoda(paziente p, p_coda* v) {
 	p_nodo nodoP = NULL;
 	if ((*v) == NULL) {
