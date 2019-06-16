@@ -1,4 +1,4 @@
-Esercitazione su Strutture Lineari Semplici – Ufficio Postale
+# Esercitazione su Strutture Lineari Semplici – Ufficio Postale
 Progettare ed implementare in ANSI C un programma che permetta di gestire 4 code di attesa in
 uno studio medico. Ogni singola coda gestisce i pazienti in attesa di uno dei medici, i medici sono
 identificati dai numeri 0, 1, 2, 3.
@@ -22,3 +22,4 @@ richiesta la cancellazione dalla struttura dati principale)
 5) Scrivere una funzione che restituisca in un vettore il numero di pazienti presenti in ogni lista
 (l’elemento di indice 0 contiene il numero di pazienti nella coda del medico 0, l’elemento di
 indice 1 contiene il numero di pazienti nella coda del medico 1, ecc.)
+<h4>UniCT ExamTest</h4>
