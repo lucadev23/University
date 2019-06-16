@@ -1,4 +1,4 @@
-# Esercitazione su Strutture Lineari Semplici – Ufficio Postale
+# Esercitazione su Strutture Lineari Semplici – Studio Medico
 Progettare ed implementare in ANSI C un programma che permetta di gestire 4 code di attesa in
 uno studio medico.
 Ogni singola coda gestisce i pazienti in attesa di uno dei medici, i medici sono
