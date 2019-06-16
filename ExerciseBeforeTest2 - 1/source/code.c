@@ -215,24 +215,18 @@ void stampaCoda(p_coda c) {
 
 void aggiungiElementoCoda(paziente p, p_coda* v) {
 	p_nodo nodoP = NULL;
-	p_nodo aux = NULL;
 	if ((*v) == NULL) {
 		return;
 	}
 	nodoP = (p_nodo)malloc(sizeof(nodo));
 	nodoP->p = p;
-	nodoP->succ=NULL;
-	aux=(*v)->primo;
-	if(aux==NULL){
-		(*v)->primo=nodoP;
-		(*v)->ultimo=nodoP;
+	nodoP->succ = NULL;
+	if ((*v)->primo == NULL) {
+		(*v)->primo = nodoP;
+		(*v)->ultimo = nodoP;
 		return;
 	}
-	while(aux->succ!=NULL){
-		aux=aux->succ;
-	}
-	aux->succ=nodoP;
-	(*v)->ultimo=nodoP;
+	(*v)->ultimo->succ = nodoP;
 }
 
 void inizializzaCode(p_coda v[]) {
